@@ -1,0 +1,87 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Uploads
+uploads/
+
+# ==========================
+# FastAPI
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Visual Studio
+# ==========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================
+# Node / React
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build
+frontend/build/
+frontend/dist/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Database
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# SQL Server backup files
+*.bak
+
+# ==========================
+# IDE
+# ==========================
+.idea/
+
+# ==========================
+# Misc
+# ==========================
+*.tmp
+*.temp
